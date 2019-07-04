@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Search, GifList } from './components';
 import { generateGifUrl } from './utils';
-import './App.css';
 
 const App = _ => {
   const [gifs, setGifs] = useState([]);
